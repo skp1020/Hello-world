@@ -11,7 +11,8 @@ for x in N :
         d[x]=1
     else :
         d[x]+=1
-
+        
+print (len(d)) 
 for i in d :
     print (i,":",d[i])
 
